@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#064A33"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="418dp"
+        app:srcCompat="@drawable/intro_1" />
+
+    <ImageView
+        android:id="@+id/imageView6"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="-70dp"
+        android:scaleType="fitXY"
+        app:srcCompat="@drawable/intro_2" />
+
+    <TextView
+        android:layout_width="333dp"
+        android:layout_height="287dp"
+        android:layout_marginLeft="20sp"
+        android:layout_marginTop="-320dp"
+        android:text="Watch !!\nEnjoy"
+        android:textColor="#ffffff"
+        android:textSize="70sp"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="52dp"
+        android:background="#60000000"
+        android:gravity="center"
+        android:text="Happy New Year"
+        android:textColor="#ffffff"
+        android:textSize="30sp"
+        android:layout_marginTop="-40sp"
+        />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/button"
+        android:layout_width="match_parent"
+        android:layout_height="61dp"
+        android:text="Go Away"
+        android:textStyle="bold"
+        android:textSize="19dp"
+        android:textColor="#1F7A0B"
+        android:layout_marginTop="45dp"/>
+
+</LinearLayout>
